@@ -39,6 +39,7 @@ The **Data** page allows administrators to:
 - Upload PDFs using the **Choose Files** button.
 - View a table listing each PDF’s ID, name, and reference.
 - Delete files when needed.
+![image](https://github.com/user-attachments/assets/ccc89350-6133-458a-a21e-8e28f68017de)
 
 ### User Interface
 
@@ -49,10 +50,17 @@ The **Data** page allows administrators to:
 3. **Option 3**: Users can enter a PDF reference in the search bar to open the corresponding file.
 
 ## Screenshots
-_Example Screenshots for UI:_
+![image](https://github.com/user-attachments/assets/bf695f15-c6a5-4413-bb4a-a7dc3c3f5a5f)
+
 - **Option 1**: QR Code with URL
+- ![image](https://github.com/user-attachments/assets/b4b1c7be-c8df-4c30-bc1a-a05d7fd35320)
+
 - **Option 2**: Folder-Referenced QR Code
+- ![image](https://github.com/user-attachments/assets/7c551ab1-0709-42db-b00c-a4c506e748f3)
+
 - **Option 3**: PDF Search by Reference
+- ![image](https://github.com/user-attachments/assets/058b5f50-e4de-44d8-b141-89cdd29d223d)
+
 
 ## Installation
 
