@@ -1,40 +1,69 @@
-WordPress-QR-Doc-Search
-Description
-WordPress-QR-Doc-Search is a versatile WordPress plugin that enables QR code scanning and document search functionality. Designed to streamline access to PDF files via QR codes and reference-based searches, this plugin allows users to efficiently locate documents by scanning QR codes or searching for specific references.
+# WordPress-QR-Doc-Search
 
-Key Features
-QR Code Scanning with URL Input
+A powerful WordPress plugin for QR code scanning and document search, allowing users to easily access PDF files by scanning QR codes or entering specific references.
 
-Users can manually enter a URL.
-Users can scan a QR code to append additional information to an existing URL.
-QR Code Scanning to Open PDFs by Folder Name
+## Features
 
-Users have access to an organized folder structure within uploads, where each folder name serves as a reference.
-Scanning a QR code with a valid reference opens the corresponding PDF file from the designated folder.
-PDF Search by Reference
+### 1. QR Code Scanning with URL Input
+- Users can enter a URL manually.
+- Scanning a QR code adds extra information to the URL for seamless access.
 
-Users can enter a specific reference into a search bar.
-If the reference exists, the associated PDF file opens automatically.
-Performance, Security, Usability, and Compatibility
-Performance: Efficient scanning and PDF search operations.
-Security: Secure handling of user input, including URLs and file paths.
-Usability: An intuitive, easy-to-use interface for both administrators and end-users.
-Compatibility: Fully compatible with various web browsers and WordPress versions.
-Admin Section
-The plugin’s admin settings page provides three main options for scanning and searching documents:
+### 2. QR Code Scanning to Open PDFs by Folder Name
+- Users can access organized folder structures in the WordPress uploads directory.
+- Each folder name serves as a reference, allowing a QR code scan to open the corresponding PDF file.
 
-URL Scanning
-Folder-Referenced QR Code Scanning
-PDF Reference Search
-Each setting can be modified and saved via the Save Changes button.
+### 3. PDF Search by Reference
+- A search bar allows users to input a reference.
+- If the reference exists, the associated PDF file opens automatically.
 
-Document Management
-Administrators can upload, view, and delete PDF files in a centralized Data page, featuring:
+## Key Considerations
 
-Choose Files button for quick uploads.
-A table displaying each file’s ID, name, and reference.
-User Section
-Usage Options
-Option 1: Scanning a QR code adds the scanned QR value to a previously entered URL.
-Option 2: Scanning a QR code with a folder reference in the upload section opens the PDF associated with that folder.
-Option 3: Users can enter a reference in a search bar. If a match is found, the corresponding PDF file opens.
+- **Performance**: Optimized for efficient QR scanning and PDF retrieval.
+- **Security**: Safely handles user inputs (URLs, file paths).
+- **Usability**: Designed with a user-friendly, intuitive interface.
+- **Compatibility**: Works across various browsers and WordPress versions.
+
+## Plugin Setup
+
+### Admin Settings
+
+The plugin provides a settings page with options for:
+1. **URL Scanning**
+2. **Folder-Based QR Code Scanning**
+3. **PDF Reference Search**
+
+Changes can be saved using the **Save Changes** button.
+
+#### Document Management
+The **Data** page allows administrators to:
+- Upload PDFs using the **Choose Files** button.
+- View a table listing each PDF’s ID, name, and reference.
+- Delete files when needed.
+
+### User Interface
+
+#### Usage Options
+
+1. **Option 1**: Scanning a QR code appends the scanned data to an entered URL.
+2. **Option 2**: Scanning a QR code with a folder reference opens the PDF from that folder.
+3. **Option 3**: Users can enter a PDF reference in the search bar to open the corresponding file.
+
+## Screenshots
+_Example Screenshots for UI:_
+- **Option 1**: QR Code with URL
+- **Option 2**: Folder-Referenced QR Code
+- **Option 3**: PDF Search by Reference
+
+## Installation
+
+1. Download and upload the plugin to your WordPress `plugins` directory.
+2. Activate the plugin in the WordPress dashboard.
+3. Configure settings in the **QR-Doc-Search** settings page.
+
+## Contributing
+
+Contributions are welcome! Please fork the repository and create a pull request for any feature additions or bug fixes.
+
+## License
+
+This project is licensed under the MIT License.
